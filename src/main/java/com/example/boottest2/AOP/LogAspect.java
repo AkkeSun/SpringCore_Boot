@@ -24,7 +24,6 @@ public class LogAspect {
     @Pointcut("@annotation(MyAnnotation)")
     public void point3(){};
 
-
     // 타겟 메서드를 감싸서 실행
     @Around("point1()")
     public Object logAspect(ProceedingJoinPoint pjp) throws Throwable{

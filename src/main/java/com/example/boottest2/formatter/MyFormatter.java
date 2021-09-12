@@ -1,5 +1,6 @@
-package com.example.boottest2;
+package com.example.boottest2.formatter;
 
+import com.example.boottest2.MyDto;
 import org.springframework.format.Formatter;
 import org.springframework.stereotype.Component;
 
